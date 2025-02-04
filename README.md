@@ -1,0 +1,1 @@
+This repository contains an example of an uncommon bug in R involving the aggregate function and NA value handling.  The bug demonstrates how the `na.rm = TRUE` argument, when used inside a custom function passed to `aggregate`, can lead to incorrect results. The solution demonstrates a correct approach to handling NAs in such cases.
